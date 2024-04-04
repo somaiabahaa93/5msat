@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Almarai", sans-serif;
+  background-color: rgb(235, 235, 229);
+}
+.hed {
+  background-color: rgb(68, 66, 66);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.icons i {
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.icons span {
+  color: white;
+  background-color: brown;
+  padding: 7px;
+  border-radius: 50%;
+}
+nav {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+nav i {
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.main {
+  display: flex;
+  /* margin-left: 100px;
+margin-right: 100px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.submain {
+  position: relative;
+  /* margin-top: 100px; */
+  margin-bottom: 40px;
+}
+.submain img {
+  width: 300px;
+  height: 200px;
+  filter: brightness(50%);
+}
+.submain h3 {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  color: white;
+}
+
+.submain1 i {
+  color: rgb(246, 161, 2);
+}
+
+.submain1 {
+  /* direction: rtl; */
+}
+
+.main1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submain1 img {
+  width: 300px;
+  height: 200px;
+}
+
+ul li {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.menu i {
+  padding: 5px;
+  font-size: 2rem;
+}
+
+/* .hh {
+  background-image: url(images/second_section_.png);
+  height: 100vh;
+  background-image: no-repeat;
+  background-size: contain;
+  width: 80%;
+  margin: auto;
+
+} */
